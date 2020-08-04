@@ -4,7 +4,10 @@ title: OmniaWrite
 subtitle: Text editor engineered for creative writing.
 ---
 
-![OmniaWrite](/assets/img/home-app-screenshot.png){: .mx-auto.d-block :}
+OmniaWrite is free and powered by [Open Source](https://github.com/TorstenDittmann/OmniaWrite)
+{: style="text-align: center"}
+
+![OmniaWrite](/assets/img/home-screenshot.png){: .mx-auto.d-block :}
 
 # The first step to your novel
 {: style="text-align: center"}

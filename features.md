@@ -4,13 +4,21 @@ title: Features
 subtitle: Perfect for authors, writers and students!
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+# No distractions
+Being focused on functionality and simplicity, OmniaWrite will not overload users’ attention with decorative elements like shades, colors, details, or animations. In this way, we hope to support a high attention ratio, allowing users to quickly overcome problems as well as easily navigate through our app.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+# Minimal
+The clean typing interface allows you to focus on writing and shaping your thoughts into text. Dive into your work without distractions and write to your heart’s content.
 
-What else do you need?
+Many of the world’s best novels were written with the typewriter, so why does it need to be any more complicated than that? Don’t let yourself be distracted by flashy features that can take away from your writing.
 
-### my history
+Allow your creativity to flow freely without interruption…
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+# Chapters and Scenes
+Write in chapters and scenes to give your text more structure and add manageability. You can move and rearrange scenes at will without having to break your structure.
+
+# Anywhere
+OmniaWrite supports Windows, Linux, macOS, Android and can also run in any modern browser.
+
+# Cloud
+Your data can be synced with our free cloud service over unlimited devices.
