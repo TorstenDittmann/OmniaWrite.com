@@ -3,15 +3,22 @@ layout: page
 title: Get started
 ---
 
-# WebApp
+# Web App
 Enjoy the best user experience from OmniaWrite with our web version using [Brave](https://brave.com/omn734). The latest updates and features are rolled out in our WebApp first.
 
-[Open Web App](https://app.omniawrite.com)
+### [Open Web App 🚀](https://app.omniawrite.com)
+{: style="text-align: center"}
 
-You can also install our app on your computer or smartphone from here.
+You can also install our app on your computer or smartphone from there.
 
 [![Brave Browser](/assets/img/brave-browser.png)](https://brave.com/omn734)
 
+<hr />
+
+# Downloads
+
+{: .box-note}
+**Note:** The download links below will attempt to download the latest OmniaWrite release from our trusted GitHub servers. If the links do not work or you would rather download directly from GitHub, you can get the direct downloads [here](https://github.com/TorstenDittmann/OmniaWrite/releases).
 
 ## Windows
 [Download Windows Installer `(exe)`](https://external.omniawrite.com/download/windows)
