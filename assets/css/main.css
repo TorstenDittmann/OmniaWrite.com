@@ -320,6 +320,21 @@ img {
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
 }
+@media (min-width: 768px) {
+  .navbar-custom .avatar-container {
+    left: 15%;
+  }
+}
+@media (min-width: 1024px) {
+  .navbar-custom .avatar-container {
+    left: 20%;
+  }
+}
+@media (min-width: 1600px) {
+  .navbar-custom .avatar-container {
+    left: 30%;
+  }
+}
 .navbar-custom.top-nav-short .avatar-container {
   opacity: 0;
   visibility: hidden;
