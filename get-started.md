@@ -40,7 +40,7 @@ You can also install our app on your computer or smartphone from there.
 - Linux (Red Hat): Red Hat Enterprise Linux 7, CentOS 7, Fedora 23
 
 ## macOS
-[Download Installer `(dmg)`](https://external.omniawrite.com/download/windows)
+[Download Installer `(dmg)`](https://external.omniawrite.com/download/dmg)
 
 {: .box-note}
 **Note:** This `dmg` is unsigned, as we are not part of Apple's Developer Program yet.
