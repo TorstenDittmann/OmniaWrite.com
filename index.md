@@ -2,6 +2,7 @@
 layout: page
 title: OmniaWrite
 subtitle: Text editor engineered for creative writing.
+meta: OmniaWrite is a free next-generation plain text editor engineered for creative writing. It is perfect for writing novels, lyrics, poems, essays, drafts and screenplays.
 ---
 
 OmniaWrite is free and powered by [Open Source](https://github.com/TorstenDittmann/OmniaWrite)

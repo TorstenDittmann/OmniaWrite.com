@@ -2,44 +2,49 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator | default: '-' }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  
+  <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator | default: '-' }}
+    {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
   {% if site.author %}
   <meta name="author" content="{{ site.author }}">
   {% endif %}
-  
-  {% if page.subtitle %}
+
+  {% if page.meta %}
+  <meta name="description" content="{{ page.meta }}">
+  {% elsif page.subtitle %}
   <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | default: 'Untitled' }} {{ site.title-separator | default: '-' }} {{ site.description }}" href="{{ '/feed.xml' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml"
+    title="{{ site.title | default: 'Untitled' }} {{ site.title-separator | default: '-' }} {{ site.description }}"
+    href="{{ '/feed.xml' | absolute_url }}">
 
   {% include gtag.html %}
   {% include gtm_head.html %}
   {% include google_analytics.html %}
 
   {% if layout.common-ext-css %}
-    {% for css in layout.common-ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
+  {% for css in layout.common-ext-css %}
+  {% include ext-css.html css=css %}
+  {% endfor %}
   {% endif %}
 
   {% if layout.common-css %}
-    {% for css in layout.common-css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}">
-    {% endfor %}
+  {% for css in layout.common-css %}
+  <link rel="stylesheet" href="{{ css | relative_url }}">
+  {% endfor %}
   {% endif %}
 
   {% if page.ext-css %}
-    {% for css in page.ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
+  {% for css in page.ext-css %}
+  {% include ext-css.html css=css %}
+  {% endfor %}
   {% endif %}
 
   {% if page.css %}
-    {% for css in page.css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}">
-    {% endfor %}
+  {% for css in page.css %}
+  <link rel="stylesheet" href="{{ css | relative_url }}">
+  {% endfor %}
   {% endif %}
 
   <!-- Facebook OpenGraph tags -->
@@ -55,7 +60,7 @@
   <meta property="og:title" content="{{ site.title }}">
   {% endif %}
 
-   {% if page.meta-description %}
+  {% if page.meta-description %}
   <meta property="og:description" content="{{ page.meta-description }}">
   {% elsif page.subtitle %}
   <meta property="og:description" content="{{ page.subtitle }}">
@@ -81,19 +86,19 @@
   {% endif %}
 
   {%- capture shareimg -%}
-    {% if page.share-img %}
-      {{ page.share-img }}
-    {% elsif page.cover-img %}
-      {% if page.cover-img.first %}
-        {{ page.cover-img[0].first.first }}
-      {% else %}
-        {{ page.cover-img }}
-      {% endif %}
-    {% elsif page.thumbnail-img %}
-      {{ page.thumbnail-img }}
-    {% elsif site.avatar %}
-      {{ site.avatar }}
-    {% endif %}
+  {% if page.share-img %}
+  {{ page.share-img }}
+  {% elsif page.cover-img %}
+  {% if page.cover-img.first %}
+  {{ page.cover-img[0].first.first }}
+  {% else %}
+  {{ page.cover-img }}
+  {% endif %}
+  {% elsif page.thumbnail-img %}
+  {{ page.thumbnail-img }}
+  {% elsif site.avatar %}
+  {{ site.avatar }}
+  {% endif %}
   {% endcapture %}
   {% assign shareimg=shareimg | strip %}
 
