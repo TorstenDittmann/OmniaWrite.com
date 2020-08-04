@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Get started
+redirect_from:
+  - /download/
 ---
 
 # Web App

@@ -322,7 +322,7 @@ img {
 }
 @media (min-width: 768px) {
   .navbar-custom .avatar-container {
-    left: 15%;
+    left: 10%;
   }
 }
 @media (min-width: 1024px) {

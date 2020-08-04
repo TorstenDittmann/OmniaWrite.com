@@ -12,6 +12,7 @@ author: Torsten Dittmann
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Home: "/"
   Features: "features"
   Blog: "blog"
   Help: "help"
@@ -186,7 +187,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: false  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
       readtime: false # add estimated reading time on all blog posts
   -
@@ -210,6 +211,10 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

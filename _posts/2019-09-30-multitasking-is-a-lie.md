@@ -4,6 +4,7 @@ title: Multitasking is a lie
 subtitle: Human attention is a limited resource
 thumbnail-img: /assets/img/multitasking.png
 share-img: /assets/img/multitasking.png
+permalink: /posts/multitasking-is-a-lie
 ---
 
 In the computer science field, multitasking describes the ability of an operating system to carry out several tasks virtually at the same time. For quite some time now, this idea has been applied to people, dividing them into good or bad multitaskers. What people experience as multitasking is probably influenced by the structure of the working memory, which enables one to do a limited amount of tasks at the same time.

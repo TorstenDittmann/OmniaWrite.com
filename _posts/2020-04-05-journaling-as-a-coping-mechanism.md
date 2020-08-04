@@ -3,6 +3,7 @@ layout: post
 title: Journaling as a Coping Mechanism
 thumbnail-img: /assets/img/journaling.png
 share-img: /assets/img/journaling.png
+permalink: /posts/journaling-as-a-coping-mechanism
 ---
 
 First and foremost, we at OmniaWrite hope that everyone reading this is safe and in good health. To those that have been affected by the Coronavirus, personally or through a family member or close friend, our hearts go out to you and we wish a speedy and full recovery. 

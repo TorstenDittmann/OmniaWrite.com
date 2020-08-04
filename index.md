@@ -23,5 +23,8 @@ OmniaWrite doesn’t help you create a novel out of nothing, but is a faithful c
 OmniaWrite supports **Windows**, **Linux**, **macOS**, **Android** and can also run in **any** modern browser.
 {: style="text-align: center"}
 
+# [Get started now 🚀](get-started)
+{: style="text-align: center"}
+
 <iframe class="mj-w-res-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/4RaZ/EAs" width="100%"></iframe>
 <script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
