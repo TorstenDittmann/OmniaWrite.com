@@ -3,6 +3,7 @@ layout: post
 title: Introduction
 subtitle: Allow me to introduce myself
 thumbnail-img: /assets/img/torsten-dittmann.png
+share-img: /assets/img/torsten-dittmann.png
 ---
 
 My name is Torsten and I live in Germany - in Cologne, to be more specific. Here, in the hustle and bustle of this turbulent city, I found my passion for writing.

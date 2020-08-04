@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Do I need a Writing Software?
+thumbnail-img: /assets/img/typewriter.png
+share-img: /assets/img/typewriter.png
 ---
 
 Do you want to write a book to put your fantasies on paper or earn money with your writing but are still looking for the right writing program or software? As an author, you have many options, yet most books are still written on Word from Microsoft or its free counterpart OpenOffice.
