@@ -56,9 +56,7 @@
     createCookie(name, "", -1);
   }
 
-  if (readCookie('cookie-notice-dismissed') == 'true') {
-    {% include heap.js %}
-  } else {
+  if (readCookie('cookie-notice-dismissed') != 'true') {
     document.getElementById('cookie-notice').style.display = 'block';
   }
   document.getElementById('cookie-notice-accept').addEventListener("click", function () {
@@ -66,5 +64,5 @@
     document.getElementById('cookie-notice').style.display = 'none';
     location.reload();
   });
-
+  {% include heap.js %}
 </script>
