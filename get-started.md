@@ -11,12 +11,6 @@ Enjoy the best user experience from OmniaWrite with our web version using [Brave
 ### [Open Web App 🚀](https://app.omniawrite.com)
 {: style="text-align: center"}
 
-You can also install our app on your computer or smartphone from there.
-
-[![Brave Browser](/assets/img/brave-browser.png)](https://brave.com/omn734)
-
-<hr />
-
 # Downloads
 
 {: .box-note}
